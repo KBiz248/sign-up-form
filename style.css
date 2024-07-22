@@ -1,3 +1,18 @@
 .flexContainer{
     display: flex;
 }
+
+input{
+    border: 1px solid rgb(61, 124, 206);
+    border-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 2px 2px 7px  grey;   
+}
+
+input:invalid{
+    border: 1px solid red;
+}
+
