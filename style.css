@@ -26,3 +26,31 @@ input:invalid{
     height: 1000px;
     width: 40%;
 }
+
+#side-logo{
+    position: relative;
+    top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.466);
+    font-size: 80px;
+    padding: 20px;
+    
+    color: white;
+
+}
+
+
+#side-logo>img{
+    height:150px;
+}
+
+
+#side-image-credit{
+    position: absolute;
+    bottom: 0%;
+    margin-top:100%;
+    margin-bottom: 0%;
+    color: white;
+}
