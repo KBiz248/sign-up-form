@@ -36,6 +36,7 @@ input:invalid{
     background-size: cover;
     height: 1000px;
     width:600px;
+    min-width: 600px;
     
     
 }
@@ -61,9 +62,11 @@ input:invalid{
 
 
 #side-image-credit{
-    position: absolute;
+    position: relative;
     bottom: 0%;
-    margin-top:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 750px;
     margin-bottom: 0%;
     color: white;
 }
