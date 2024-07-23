@@ -17,13 +17,22 @@ body{
     flex-shrink: 0;
 }
 
+
+label{
+    letter-spacing: 0.25em;
+}
+
 input{
-    border: 1px solid rgb(61, 124, 206);
+    border: 1px solid lightgrey;
     border-radius: 5px;
+    margin-right: 90px;
+    margin-bottom: 40px;
+    padding: 8px;
+    font-size: 16px;
 }
 
 input:focus{
-    outline: none;
+    outline: 1px solid rgb(61, 124, 206);
     box-shadow: 2px 2px 7px  grey;   
 }
 
@@ -78,4 +87,14 @@ input:invalid{
 #content{
     margin-top: 150px;
     margin-left: 70px;
+}
+
+button{
+    background-color: olivedrab;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 50px;
+    font-size: 16px;
+    font-weight: bold;
 }
