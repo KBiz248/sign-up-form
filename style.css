@@ -2,6 +2,11 @@ body{
     margin:0;
 }
 
+@font-face {
+    font-family: 'norse';
+    src: url(./Norse-Bold.otf);
+}
+
 .flexContainer{
     display: flex;
 }
@@ -36,9 +41,9 @@ input:invalid{
     background-color: rgba(0, 0, 0, 0.466);
     font-size: 80px;
     padding: 20px;
-    
     color: white;
-
+    font-family: 'norse';
+    
 }
 
 
