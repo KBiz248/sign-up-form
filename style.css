@@ -9,7 +9,7 @@ body{
 }
 
 .largeFont{
-    font-size: 10px;
+    font-size: 30px;
 }
 
 .flexContainer{
@@ -69,4 +69,9 @@ input:invalid{
     margin-top: 750px;
     margin-bottom: 0%;
     color: white;
+}
+
+#content{
+    margin-top: 150px;
+    margin-left: 70px;
 }
