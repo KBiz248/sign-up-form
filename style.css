@@ -9,7 +9,7 @@ body{
 }
 
 .largeFont{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .flexContainer{
@@ -68,6 +68,10 @@ input:invalid{
     justify-content: center;
     margin-top: 750px;
     margin-bottom: 0%;
+    color: white;
+}
+
+#side-image-credit>a{
     color: white;
 }
 
