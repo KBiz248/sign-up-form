@@ -8,8 +8,13 @@ body{
     src: url(./Norse-Bold.otf);
 }
 
+.largeFont{
+    font-size: 10px;
+}
+
 .flexContainer{
     display: flex;
+    flex-shrink: 0;
 }
 
 input{
@@ -30,7 +35,9 @@ input:invalid{
     background-image: url(./sjoukje-bos-RMQKJCHhWBg-unsplash.jpg);
     background-size: cover;
     height: 1000px;
-    width: 40%;
+    width:600px;
+    
+    
 }
 
 #side-logo{
