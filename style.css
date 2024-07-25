@@ -18,7 +18,9 @@ body{
 }
 
 form{
-    box-shadow: 2px 2px 10px grey;
+    box-shadow: 5px 5px 10px lightgrey;
+    
+    
 }
 
 label{
@@ -35,7 +37,8 @@ input{
 }
 
 input:focus{
-    outline: 1px solid rgb(61, 124, 206);
+    outline: none;
+    border: 1px solid rgb(61, 124, 206);
     box-shadow: 2px 2px 7px  grey;   
 }
 
@@ -90,13 +93,14 @@ input:invalid{
 #content{
     margin-top: 150px;
     
+    
 }
 
 #content>*{
     padding-left: 70px;
 }
 
-button{
+#button{
     background-color: olivedrab;
     color: white;
     border: none;
