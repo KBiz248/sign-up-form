@@ -104,5 +104,12 @@ button{
     padding: 16px 50px;
     font-size: 16px;
     font-weight: bold;
-    margin-left: 70px;
+    margin: 40px 70px;
+    /* why does everything EXCEPT the button move over with #content>*{padding-left: 70px}? Isn't the button also a child of #content? */
+    
 }
+
+#this{
+    margin-top: 0;
+}
+
