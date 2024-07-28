@@ -101,8 +101,9 @@ input:invalid{
 }
 
 #button{
-    background-color: olivedrab;
+    background-color: olivedrab; 
     color: white;
+    background-color: rgb(47, 98, 145);
     border: none;
     border-radius: 8px;
     padding: 16px 50px;
@@ -110,10 +111,13 @@ input:invalid{
     font-weight: bold;
     margin: 40px 70px;
     /* why does everything EXCEPT the button move over with #content>*{padding-left: 70px}? Isn't the button also a child of #content? */
-    
+    /* yes, but the padding-left for the button stretches out the left side of the button. You were probably thinking of margin-left */
 }
 
 #this{
     margin-top: 0;
 }
 
+#this>a{
+    color: rgb(47, 98, 145);
+}
